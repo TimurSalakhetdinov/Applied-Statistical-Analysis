@@ -1,8 +1,8 @@
-# Applied Statistical Data Analysis
+# Group 2 - Lego inventory analysis
 
 ## Overview
 
-This project analyzes a dataset of bricks with attributes such as color, shape, height, units, and age group. The objective is to explore and visualize the distribution of these features to understand the characteristics and trends among different brick types.
+This project analyzes a dataset of Lego bricks with attributes such as color, shape, height, units, and age group. The objective is to explore and visualize the distribution of these features to understand the characteristics and trends among different brick types.
 
 ## Project Structure
 

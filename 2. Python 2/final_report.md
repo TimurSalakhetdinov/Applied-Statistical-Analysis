@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on analyzing a dataset of bricks with various attributes such as color, shape, height, units, and age group. The primary goal is to explore and visualize the distribution of these features to better understand the characteristics of the bricks. Using Python libraries such as Pandas, Seaborn, and Matplotlib, we conducted an in-depth analysis and generated visualizations to summarize our findings.
+This project focuses on analyzing a dataset of Lego bricks with various attributes such as color, shape, height, units, and age group. The primary goal is to create a dataset, explore and visualize the distribution of these features to better understand the characteristics of the bricks. Using Python libraries such as Pandas, Seaborn, and Matplotlib, we conducted an in-depth analysis and generated visualizations to summarize our findings.
 
 ## Data Processing and Cleaning
 
