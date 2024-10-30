@@ -22,6 +22,6 @@ An emergent classroom approach is used, where traditional passive lectures are r
 8. 5/12/23 - Generalized Linear Models
 9. 12/12/23 - Model Simplification
 10. 19/12/23 - Ordinations
-11.	16/1/24 - Cluster Analysis
+11. 16/1/24 - Cluster Analysis
 12. 16/1/24 - Model Comparison and simplification
 13. 30/1/24 - Taking Stock
