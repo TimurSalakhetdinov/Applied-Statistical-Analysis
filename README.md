@@ -12,7 +12,7 @@ An emergent classroom approach is used, where traditional passive lectures are r
 
 ## Course Topics
 
-1. **[15/10/24 - Python Basics](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/1.%20Python%20Basics)**
+1. [15/10/24 - Python Basics](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/1.%20Python%20Basics)
 2. 24/10/23 - Python Part 2
 3. 31/10/23 - Data Formats
 4. 7/11/23 - Distribution & Probability, Simple Tests
