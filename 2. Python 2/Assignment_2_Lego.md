@@ -20,7 +20,7 @@ To gain insights into the distribution of various attributes, we created several
 
 ### 1. Distribution of Colors
 
-![Distribution of Colors](distribution_of_colors.png)
+![Distribution of Colors](distribution_of_colours.png)
 
 This count plot displays the distribution of colors among the bricks, with each color bar representing the frequency of that color. This visualization helps identify the most common and rare colors in the dataset.
 
