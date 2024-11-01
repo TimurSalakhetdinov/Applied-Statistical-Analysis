@@ -13,24 +13,29 @@ To start, we manually counted the available Lego bricks and documented their det
 The Lego inventory data was divided into five normalized tables, each containing distinct attributes:
 
 1. **Main Table (Inventory)**:
-   - **Features**: `unique_id`, `colour_id`, `sof_id` (Shape of Form ID), `height_id`, `age_id`, `units`
+   - **Features**: `unique_id`, `nod`, `colour_id`, `sof_id`, `height_id`, `age_id`, `units`
    - **Purpose**: This main table lists each Lego brick entry by its unique identifier and references other tables for attributes like color, shape, height, and age group through foreign keys.
+   ![Main Table](main_table_table.png)
 
 2. **Colour Table**:
-   - **Features**: `colour_id`, `colour_name`, `colour_code`
+   - **Features**: `colour_id`, `colour_name`, `colour_fill`, `colour_code`
    - **Purpose**: Stores color information, with each color having a unique identifier, a descriptive name, and a color code (e.g., hex or RGB) for visual reference.
+   ![Colour Table](colour_table.png)
 
 3. **Shape of Form (SoF) Table**:
-   - **Features**: `sof_id`, `shape_info`
+   - **Features**: `sof_id`, `shape`, `type`
    - **Purpose**: Describes the shape of each Lego brick, allowing for classification by forms such as `Cube`, `Slope`, `Cylinder`, etc. This provides a reference for the shape types used in the main inventory.
+   ![Shape Table](shape_table.png)
 
-4. **Height Table**:
-   - **Features**: `height_id`, `height_name`
-   - **Purpose**: Specifies the height category of each brick, with typical values like `Normal` or `Low`. This allows us to standardize height descriptions in the inventory.
-
-5. **Age Group Table**:
+4. **Age Group Table**:
    - **Features**: `age_id`, `age_group`
-   - **Purpose**: Classifies bricks by their target age group, providing insight into age-specific categories for better segmentation (e.g., `3-5 years`, `6-8 years`, etc.).
+   - **Purpose**: Classifies bricks by their target age group, providing insight into age-specific categories for better segmentation (e.g., `Classical`, `Duplo`, etc.).
+   ![Age Group Table](age_group_table.png)
+
+5. **Height Table**:
+   - **Features**: `height_id`, `height_name`
+   - **Purpose**: Specifies the height category of each brick, with typical values like `Normal`, `High` or `Low`. This allows us to standardize height descriptions in the inventory.
+   ![Height Table](height_table.png)
 
 Each table was designed to hold unique information and is linked by identifiers, creating a well-structured and normalized database for analysis.
 
