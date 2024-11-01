@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This project focuses on creating an inventory of available Lego bricks, analyzing their attributes, and performing a distribution analysis on various features such as color, shape, height, units, and age group.
+This project focuses on creating an inventory of available Lego bricks, analyzing their attributes, and performing a distribution analysis on various features such as colour, shape, height, units, and age group.
 
 ### Inventory Process
 
-To start, we manually counted the available Lego bricks and documented their details. This inventory was then recorded in an Excel table, which was subsequently divided into five separate tables. These tables were structured to normalize the database and improve data consistency, representing different attributes like color, shape, and type. After normalization, the tables were merged using key identifiers for analysis.
+To start, we manually counted the available Lego bricks and documented their details. This inventory was then recorded in an Excel table, which was subsequently divided into five separate tables. These tables were structured to normalize the database and improve data consistency, representing different attributes like colour, shape, and type. After normalization, the tables were merged using key identifiers for analysis.
 
 ### Database Structure and Tables
 
@@ -14,12 +14,12 @@ The Lego inventory data was divided into five normalized tables, each containing
 
 1. **Main Table (Inventory)**:
    - **Features**: `unique_id`, `nod`, `colour_id`, `sof_id`, `height_id`, `age_id`, `units`
-   - **Purpose**: This main table lists each Lego brick entry by its unique identifier and references other tables for attributes like color, shape, height, and age group through foreign keys.
+   - **Purpose**: This main table lists each Lego brick entry by its unique identifier and references other tables for attributes like colour, shape, height, and age group through foreign keys.
    ![Main Table](main_table_table.png)
 
 2. **Colour Table**:
    - **Features**: `colour_id`, `colour_name`, `colour_fill`, `colour_code`
-   - **Purpose**: Stores color information, with each color having a unique identifier, a descriptive name, and a color code (e.g., hex or RGB) for visual reference.
+   - **Purpose**: Stores color information, with each colour having a unique identifier, a descriptive name, and a colour code (e.g., hex or RGB) for visual reference.
    ![Colour Table](colour_table.png)
 
 3. **Shape of Form (SoF) Table**:
@@ -57,7 +57,7 @@ To gain insights into the distribution of various attributes, we created several
 
 ![Distribution of Colors](distribution_of_colours.png)
 
-This count plot displays the distribution of colors among the bricks, with each color bar representing the frequency of that color. This visualization helps identify the most common and rare colors in the dataset.
+This count plot displays the distribution of colours among the bricks, with each color bar representing the frequency of that colour. This visualization helps identify the most common and rare colors in the dataset.
 
 ### 2. Distribution of Shapes
 
@@ -79,7 +79,7 @@ This figure includes four subplots:
 
 Based on the analysis, we observed several key insights:
 
-1. **Color Trends**: Certain colors are more common among bricks, which may indicate popularity or preference in design.
+1. **Color Trends**: Certain colours are more common among bricks, which may indicate popularity or preference in design.
 2. **Shape Variety**: A few shapes, like cuboids and rectangles, dominate the dataset, suggesting they are the most commonly used.
 3. **Units by Type**: The units distribution varies across different types, potentially reflecting variations in brick sets or packages.
 4. **Age Group Specificity**: The age groups provide insight into which bricks are intended for which age ranges, supporting targeted marketing or design decisions.
@@ -88,7 +88,7 @@ Based on the analysis, we observed several key insights:
 
 Further analysis could be conducted to:
 
-- Examine potential relationships between color and shape.
+- Examine potential relationships between colour and shape.
 - Analyze specific features in the context of age group preferences.
 - Explore time-based trends if historical data becomes available.
 
