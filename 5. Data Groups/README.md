@@ -76,6 +76,8 @@ The primary objectives of this analysis are:
 
 By addressing these areas, the **Global Trade Alliance** can effectively reduce carbon intensity and enhance its global sustainability impact.
 
+---
+
 ## Files in Repository
 
 - **`group2_analysing_carbon_intensity_vF.ipynb`**  
