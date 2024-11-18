@@ -42,6 +42,35 @@ The primary objectives of this analysis are:
 - Countries with lower CI should be encouraged to share best practices and technologies with nations that have higher CI to help reduce global emissions.
 - Sectors like **Packaging for consumer goods** and **Construction materials** could focus on reducing CI in their downstream value chain portion for more efficient carbon reduction.
 
+## Files in Repository
+
+- **`group2_analysing_carbon_intensity_vF.ipynb`**  
+  *This is the Jupyter Notebook containing the complete analysis of carbon intensity data for EcoFuture Analytics.*
+
+- **`PublicTablesForCarbonCatalogueDataDescriptor_v30Oct2021.xlsx`**  
+  *The primary dataset used for the analysis, containing product-level and stage-level carbon intensity data.*
+
+- **`The Carbon Catalogue Article.pdf`**  
+  *A detailed description of the dataset, methodology, and study context.*
+
+---
+
+## How to Use
+
+1. Open the **`group2_analysing_carbon_intensity_vF.ipynb`** notebook in JupyterLab or any compatible environment.
+2. Ensure the required Python libraries (e.g., pandas, numpy, seaborn, matplotlib) are installed.
+3. Run the notebook cells in order to reproduce the analysis and visualizations.
+4. Review the findings in the provided visualizations and summary sections.
+
+---
+
+## Data Source
+
+- The dataset used in this project was obtained from the [Carbon Catalogue](https://springernature.figshare.com/collections/The_Carbon_Catalogue_Carbon_footprints_of_866_commercial_products_from_8_industry_sectors_and_5_continents/5408100).
+- A detailed description of the dataset and study can be found in **`The Carbon Catalogue Article.pdf`**.
+
+---
+
 ## Requirements
 
 To run this Jupyter notebook and replicate the analysis, make sure you have the following Python libraries installed:
@@ -59,3 +88,12 @@ You can install the necessary dependencies using `pip`:
 
 ```bash
 pip install numpy pandas seaborn matplotlib scipy ipykernel stats pingouin
+
+---
+
+## Contributors
+
+- Team Group 2
+  - Sustainability Analysts for **EcoFuture Analytics**
+
+---
