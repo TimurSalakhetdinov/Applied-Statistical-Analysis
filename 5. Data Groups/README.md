@@ -1,4 +1,4 @@
-# Group 2 "Data Deamons" - Carbon Intensity Analysis for EcoFuture Analytics
+# Group 2: ✨ **Data Deamons** ✨ - Carbon Intensity Analysis for EcoFuture Analytics
 
 This project analyzes the **carbon intensity (CI)** of commercial products from various sectors, using data provided by the **PCF-Database**. The goal of this analysis is to identify significant differences in CI across sectors, countries, and value chain stages to provide actionable insights for **Global Trade Alliance**. The analysis aims to inform sustainability strategies to reduce the environmental impact of global product distribution.
 
