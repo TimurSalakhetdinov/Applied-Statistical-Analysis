@@ -57,7 +57,7 @@ The primary objectives of this analysis are:
 
 ## How to Use
 
-1. Open the [group2_analysing_carbon_intensity_vF.ipynb](group2_analysing_carbon_intensity_vF.ipynb) notebook in JupyterLab or any compatible environment.
+1. Open the [Group2_analysing_carbon_intensity.ipynb](Group2_analysing_carbon_intensity_vF.ipynb) notebook in JupyterLab or any compatible environment.
 2. Ensure the required Python libraries (e.g., pandas, numpy, seaborn, matplotlib) are installed.
 3. Run the notebook cells in order to reproduce the analysis and visualizations.
 4. Review the findings in the provided visualizations and summary sections.
