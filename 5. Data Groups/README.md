@@ -14,33 +14,67 @@ The primary objectives of this analysis are:
 - **PCF-Database**: Contains data on carbon footprints (PCF) and carbon intensity (CI) of 866 commercial products from 8 industry sectors and 5 continents.
 - **Carbon Intensity Data**: Sourced from [Figshare Collection](https://springernature.figshare.com/collections/The_Carbon_Catalogue_Carbon_footprints_of_866_commercial_products_from_8_industry_sectors_and_5_continents/5408100).
 
-## Analysis Tasks
+## Overall Key Findings of Analysis
 
-### 1. Carbon Intensity Differences Among Sectors
-- **Objective**: Are there significant differences in average carbon intensity (CI) among sectors?
-- **Analysis**: ANOVA (F-test) was performed to identify sectors with significantly different CI.
-- **Conclusion**: Significant differences in CI were observed, with some sectors showing higher CI values. Reasons for these differences include industry-specific production processes and geographical influences.
+### 1. Sectoral Differences in Carbon Intensity (CI)
+- **Significant Differences**: Analysis revealed that CI varies significantly across sectors, confirmed through one-way ANOVA and post-hoc tests. Tukey’s test identified specific sector pairs with significant differences.
+- **Overlapping Ranges**: Some sectors have overlapping CI ranges, making it challenging to distinguish their environmental performance through CI alone.
+- **Reasons for Differences**:
+  - Variability in industrial processes and energy efficiency.
+  - Product lifecycle emissions differing by sector.
 
-### 2. Carbon Intensity Differences Across Countries
-- **Objective**: Are there significant differences in average CI across countries represented in the dataset?
-- **Analysis**: A comparison of CI across different countries was made to highlight countries with significantly higher or lower CI values.
-- **Conclusion**: Significant variation was found between countries, with developed nations showing lower CI due to more sustainable practices and technology adoption.
+---
 
-### 3. CI Contributions from Value Chain Portions
-- **Objective**: Are there significant differences in CI contributions among the three value chain portions (upstream, operations, downstream)?
-- **Analysis**: The variance in CI across the value chain portions was analyzed to identify where most of the carbon emissions come from within each sector.
-- **Conclusion**: Upstream activities tend to contribute the most to CI in certain sectors, while downstream activities dominate others.
+### 2. Regional and Country-Level Differences in CI
+- **Significant Differences**: Differences in CI were observed among countries or regions. These differences highlight how local energy policies, industrial efficiency, and resource availability impact CI.
+- **Potential Grouping**: Countries could be grouped based on renewable energy adoption, industrial maturity, or economic development for deeper insights.
+- **Reasons for Variability**:
+  - Geographic energy mix (e.g., renewable vs. non-renewable sources).
+  - Technological adoption and efficiency standards.
 
-### 4. Value Chain Portion Driving CI Variability Across Sectors
-- **Objective**: Which value chain portion contributes the most to CI variability across sectors?
-- **Analysis**: ANOVA was used to test the variability of CI across the upstream, operations, and downstream portions for each sector.
-- **Conclusion**: The **Upstream CO2e** portion contributed the most to CI variability across sectors, particularly in sectors like **Chemicals** and **IT**.
+---
 
-## Key Insights and Recommendations
+### 3. Value Chain Contributions to CI
+- **Analysis of Portions**: CI contributions from upstream, direct operations, and downstream portions were compared.
+- **Significant Differences**: Statistical tests identified notable differences between these portions within sectors.
+- **Reasoning**:
+  - Upstream processes, like raw material extraction, generally exhibit higher variability due to dependence on natural resource conditions.
+  - Operational differences arise from sector-specific efficiencies.
 
-- **Upstream CO2e** is the largest contributor to carbon intensity variability, suggesting that efforts to reduce emissions in the upstream stages of production could significantly reduce overall CI.
-- Countries with lower CI should be encouraged to share best practices and technologies with nations that have higher CI to help reduce global emissions.
-- Sectors like **Packaging for consumer goods** and **Construction materials** could focus on reducing CI in their downstream value chain portion for more efficient carbon reduction.
+---
+
+### 4. Largest Contributor to CI Variability Across Sectors
+- The **upstream portion** was found to be the most significant driver of CI variability across sectors.
+- **Reasons**:
+  - Resource extraction methods differ substantially across sectors.
+  - The energy mix used for upstream processes varies by sector.
+
+---
+
+## Visualizations
+- Boxplots and bar plots were used to depict CI variance across sectors and value chain stages.
+- These visualizations confirmed statistical findings and highlighted specific sectors and regions with extreme CI values.
+
+---
+
+## Final Recommendations
+
+1. **Policy Focus on High CI Sectors**:
+   - Target sectors with high average CI or overlapping CI ranges.
+   - Prioritize sectors like manufacturing and transportation, which often have elevated CI.
+
+2. **Mitigate Upstream Variability**:
+   - Encourage the adoption of renewable energy sources and sustainable raw material extraction practices.
+   - Implement stricter carbon footprint regulations for upstream activities.
+
+3. **Regional Policies**:
+   - Tailor strategies to regional differences in energy mix and industrial maturity.
+   - Incentivize countries to adopt cleaner technologies and improve energy efficiency.
+
+4. **Continuous Monitoring**:
+   - Use statistical and visual tools regularly to evaluate progress in reducing CI.
+
+By addressing these areas, the **Global Trade Alliance** can effectively reduce carbon intensity and enhance its global sustainability impact.
 
 ## Files in Repository
 
