@@ -67,7 +67,7 @@ The primary objectives of this analysis are:
 ## Data Source
 
 - The dataset used in this project was obtained from the [Carbon Catalogue](https://springernature.figshare.com/collections/The_Carbon_Catalogue_Carbon_footprints_of_866_commercial_products_from_8_industry_sectors_and_5_continents/5408100).
-- A detailed description of the dataset and study can be found in [The Carbon Catalogue Article.pdf](./The Carbon Catalogue Article.pdf).
+- A detailed description of the dataset and study can be found in [Carbon Catalogue Article.pdf](Carbon_catalogue_article.pdf).
 
 ---
 
