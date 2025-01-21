@@ -12,16 +12,17 @@ An emergent classroom approach is used, where traditional passive lectures are r
 
 ## Course Topics
 
-1. [15/10/24 - Python Basics](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/1.%20Python%20Basics)
-2. [24/10/23 - Python Part 2](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/2.%20Python%202)
-3. 31/10/23 - Data Formats
-4. 7/11/23 - Distribution & Probability, Simple Tests
-5. 14/11/23 - Group Comparisons in data
-6. 21/11/23 - Correlations
-7. 28/11/23 - Regressions
-8. 5/12/23 - Generalized Linear Models
-9. 12/12/23 - Model Simplification
-10. 19/12/23 - Ordinations
-11. 16/1/24 - Cluster Analysis
-12. 16/1/24 - Model Comparison and simplification
-13. 30/1/24 - Taking Stock
+1. [15/10/24 - Python Basics](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/01_Python%20Basics)
+2. [24/10/23 - Python Part 2](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/02_Python%202)
+3. [31/10/23 - Data Formats](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/03_Data%20formats)
+4. [7/11/23 - Distribution & Probability, Simple Tests](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/04_Distribution)
+5. [14/11/23 - Group Comparisons in data](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/05_Data%20Groups)
+6. [21/11/23 - Correlations](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/06_Correlation)
+7. [28/11/23 - Regressions](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/07_Regression)
+8. [5/12/23 - Generalized Linear Models](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/08_GLM)
+9. [12/12/23 - Model Simplification](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/09_Model_reduction)
+10. [19/12/23 - Ordinations](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/10_PCA)
+11. [16/1/24 - Cluster Analysis](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/11_Clustering)
+12. [16/1/24 - Spotify Clustering](https://github.com/TimurSalakhetdinov/Applied-Statistical-Analysis/tree/main/11_Spotify_clustering)
+13. [21/1/24 - Model Comparison and simplification]
+14. [30/1/24 - Taking Stock]
